@@ -1,8 +1,9 @@
-/* Asterisk wildcard selector to override default styles added by the browser */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
 }
 
 /* General styles */
@@ -12,8 +13,12 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
 
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
 
 /* Header */
 header {
